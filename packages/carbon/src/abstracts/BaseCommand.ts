@@ -2,12 +2,9 @@ import {
 	ApplicationCommandType,
 	type RESTPostAPIApplicationCommandsJSONBody
 } from "discord-api-types/v10"
-import {
-	ApplicationIntegrationType,
-	type BaseComponent,
-	InteractionContextType,
-	type Modal
-} from "../index.js"
+import { ApplicationIntegrationType, InteractionContextType } from "../index.js"
+import type { BaseComponent } from "../abstracts/BaseComponent.js"
+import type { Modal } from "../classes/Modal.js"
 
 /**
  * Represents the base data of a command that the user creates

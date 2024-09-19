@@ -8,18 +8,16 @@ import {
 	type RESTPostAPIInteractionFollowupJSONBody,
 	Routes
 } from "discord-api-types/v10"
-import {
-	Base,
-	type Client,
-	Embed,
-	Guild,
-	Message,
-	type Modal,
-	type Row,
-	User,
-	channelFactory
-} from "../index.js"
 import { GuildMember } from "../structures/GuildMember.js"
+import { Embed } from "../classes/Embed.js"
+import type { Client } from "../classes/Client.js"
+import type { Modal } from "../classes/Modal.js"
+import type { Row } from "../classes/Row.js"
+import { channelFactory } from "../factories/channelFactory.js"
+import { Guild } from "../structures/Guild.js"
+import { Message } from "../structures/Message.js"
+import { User } from "../structures/User.js"
+import { Base } from "./Base.js"
 
 /**
  * The data to reply to an interaction

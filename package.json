@@ -1,6 +1,7 @@
 {
 	"name": "monorepo",
 	"description": "Carbon monorepo",
+	"type": "module",
 	"private": true,
 	"repository": "github:buape/carbon",
 	"scripts": {

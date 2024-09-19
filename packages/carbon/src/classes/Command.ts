@@ -2,11 +2,9 @@ import {
 	type APIApplicationCommandBasicOption,
 	ApplicationCommandType
 } from "discord-api-types/v10"
-import {
-	type AutocompleteInteraction,
-	BaseCommand,
-	type CommandInteraction
-} from "../index.js"
+import { BaseCommand } from "../abstracts/BaseCommand.js"
+import type { AutocompleteInteraction } from "../internals/AutocompleteInteraction.js"
+import type { CommandInteraction } from "../internals/CommandInteraction.js"
 
 export type CommandOptions = APIApplicationCommandBasicOption[]
 

@@ -1,13 +1,7 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
 	"files": {
-		"ignore": [
-			"dist",
-			"./packages/**/package.json",
-			"./packages/**/tsconfig.json",
-			"./apps/web/build",
-			"./apps/web/.docusaurus"
-		],
+		"ignore": ["dist", "website/out"],
 		"ignoreUnknown": true
 	},
 	"vcs": {
@@ -18,6 +12,7 @@
 	},
 	"linter": {
 		"enabled": true,
+		"ignore": ["*.test.ts"],
 		"rules": {
 			"recommended": true,
 			"correctness": {

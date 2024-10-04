@@ -1,5 +1,18 @@
 # @buape/carbon
 
+## 0.6.0
+
+### Minor Changes
+
+- 407d4d2: feat: Bump required node version to v20
+- 6ab721f: refactor: move linked roles to core package
+
+### Patch Changes
+
+- c25cfac: fix: make embed data not required to create embed class
+- Updated dependencies [407d4d2]
+  - @buape/carbon-request@0.2.0
+
 ## 0.5.0
 
 ### Minor Changes
